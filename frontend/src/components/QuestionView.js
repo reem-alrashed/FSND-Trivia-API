@@ -35,7 +35,7 @@ class QuestionView extends Component {
                 return;
             },
             error: (error) => {
-                alert('Unable to load questions. Please try your request again')
+                alert('Cant load questions!')
                 return;
             }
         })
@@ -74,7 +74,7 @@ class QuestionView extends Component {
                 return;
             },
             error: (error) => {
-                alert('Unable to load questions. Please try your request again')
+                alert('Cant load questions!')
                 return;
             }
         })
@@ -102,7 +102,7 @@ class QuestionView extends Component {
                 return;
             },
             error: (error) => {
-                alert('Unable to load questions. Please try your request again')
+                alert('Cant load questions!')
                 return;
             }
         })
@@ -111,7 +111,7 @@ class QuestionView extends Component {
 
     questionAction = (id) => (action) => {
         if (action === 'DELETE') {
-            if (window.confirm('are you sure you want to delete the question?')) {
+            if (window.confirm('Are you sure you want to delete this question?')) {
                 $.ajax({
                     url: `/questions/${id}`, //TODO: update request URL
                     type: "DELETE",
@@ -119,7 +119,7 @@ class QuestionView extends Component {
                         this.getQuestions();
                     },
                     error: (error) => {
-                        alert('Unable to load questions. Please try your request again')
+                        alert('Cant load questions!')
                         return;
                     }
                 })
