@@ -51,7 +51,11 @@ Don't use `dropdb` command the first time you run your tests.
 
 ## API Reference
 
-### API endpoints
+### API endpoints  
+This part will show the system's endpoints Url including:
+- Request parameters
+- Response body
+---
 
 - GET /categories  
 
