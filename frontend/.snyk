@@ -1,0 +1,107 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:call:20160705':
+    - corsproxy > hapi > call:
+        patched: '2022-10-07T22:10:04.280Z'
+  'npm:hoek:20180212':
+    - corsproxy > good > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > good-console > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > h2o2 > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > inert > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > vision > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > topo > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > good > joi > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > h2o2 > boom > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > good > wreck > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > good-console > good-squeeze > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > boom > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > accept > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > ammo > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > call > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > joi > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > catbox > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > catbox-memory > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > heavy > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > iron > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > kilt > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > mimos > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > shot > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > statehood > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > content > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > pez > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > wreck > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > pez > b64 > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > pez > nigel > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+    - corsproxy > hapi > subtext > pez > nigel > vise > hoek:
+        patched: '2022-10-07T22:10:04.280Z'
+  SNYK-JS-LODASH-567746:
+    - react-scripts > @babel/core > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > eslint > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > eslint-plugin-import > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > eslint > inquirer > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > eslint > table > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > babel-preset-react-app > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+    - react-scripts > jest-environment-jsdom-fourteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-07T22:10:04.280Z'
+  'npm:moment:20160126':
+    - corsproxy > hapi > joi > moment:
+        patched: '2022-10-07T22:10:04.280Z'
